@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, ChevronUp, Mail, Phone, Award, BookOpen } from 'lucide-react'
 import { fadeIn, slideUp } from '../utils/motion'
-import { facultyData, officeBearers } from '../data/Mockdataockdata'
+import { facultyData, officeBearers } from '../Data/Mockdata'
 
 const Community = () => {
   const [expandedYear, setExpandedYear] = useState('Final Year')
