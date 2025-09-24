@@ -19,8 +19,9 @@ const Header = () => {
   ]
 
   const languages = [
-    { code: 'en', name: 'English', flag: '🇺🇸' },
-    { code: 'hi', name: 'हिंदी', flag: '🇮🇳' }
+    { code: 'en', name: 'English'},
+    { code: 'hi', name: 'हिंदी' },
+    { code: 'or', name: 'ଓଡ଼ିଆ' }
   ]
 
   const isActive = (path) => location.pathname === path
@@ -67,8 +68,8 @@ const Header = () => {
           {/* Logo Section - Center */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="flex items-center space-x-2">
-              <img src="/mes-logo.png" alt="MES Logo" className="h-10 w-10" />
-              <img src="/igit-logo.png" alt="IGIT Logo" className="h-10 w-10" />
+              <img src="./Pages/Image/MES LOGO_20240209_124406_0000.png" alt="MES Logo" className="h-10 w-10" />
+              <img src="./Pages/Image/igit logo 15 cm.png" alt="IGIT Logo" className="h-10 w-10" />
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl font-heading font-bold text-deep-navy">

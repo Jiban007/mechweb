@@ -7,13 +7,16 @@ const Achievements = () => {
   const { t } = useLanguage()
   
   const recruiters = [
-    { name: 'Adani', logo: '/api/placeholder/120/60' },
-    { name: 'L&T', logo: '/api/placeholder/120/60' },
-    { name: 'JSW', logo: '/api/placeholder/120/60' },
-    { name: 'Tech Mahindra', logo: '/api/placeholder/120/60' },
-    { name: 'Bajel', logo: '/api/placeholder/120/60' },
-    { name: 'IAVL', logo: '/api/placeholder/120/60' },
-    { name: 'PPL', logo: '/api/placeholder/120/60' }
+    { name: 'Adani', logo: '/Pages/Image/Adani_2012_logo.png' },
+    { name: 'L&T', logo: '/Pages/Image/L&T.png' },
+    { name: 'JSW', logo: '/Pages/Image/JSW_Group_logo.svg.png' },
+    { name: 'Tech Mahindra', logo: '/Pages/Image/Tech_Mahindra-Logo.wine.png' },
+    { name: 'Bajel', logo: '/Pages/Image/BajelProjectsLtd_49283474_76479.png' },
+    { name: 'IAVL', logo: '/Pages/Image/iavl.jpeg' },
+    { name: 'PPL', logo: '/Pages/Image/PPL.png' },
+    { name: 'Tcs', logo: '/Pages/Image/TCS.png' },
+    { name: 'amns', logo: '/Pages/Image/Arcelormittal-logo.png' }
+    
   ]
 
   const placementData = [
@@ -299,7 +302,7 @@ const Achievements = () => {
                 Meet Our Faculty
               </a>
               <a 
-                href="mailto:placement@igitsarang.ac.in" 
+                href="https://www.igitcdc.ac.in/" 
                 className="bg-white text-teal-start border border-teal-start px-6 py-3 rounded-lg font-medium hover:bg-teal-start hover:text-white transition-all duration-200"
               >
                 Contact Placement Cell

@@ -17,13 +17,13 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: '#',
+      href: 'https://www.linkedin.com/company/mes-igit',
       color: 'hover:text-blue-400'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      href: '#',
+      href: 'https://www.instagram.com/mes.igit?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
       color: 'hover:text-pink-400'
     }
   ]
@@ -77,8 +77,8 @@ const Footer = () => {
         <div className="flex flex-col items-center space-y-6">
           {/* Logo Section */}
           <div className="flex items-center space-x-3">
-            <img src="/mes-logo.png" alt="MES Logo" className="h-12 w-12" />
-            <img src="/igit-logo.png" alt="IGIT Logo" className="h-12 w-12" />
+            <img src="/Pages/Image/MES LOGO_20240209_124406_0000.png" alt="MES Logo" className="h-12 w-12" />
+            <img src="/Pages/Image/igit logo 15 cm.png" alt="IGIT Logo" className="h-12 w-12" />
             <div>
               <h3 className="text-xl font-heading font-bold">MES IGIT</h3>
               <p className="text-sm text-gray-300">Mechanical Engineering Society</p>

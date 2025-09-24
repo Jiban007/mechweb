@@ -5,11 +5,11 @@ import { fadeIn, slideUp } from '../utils/motion'
 const About = () => {
   const messages = [
     {
-      title: 'HOD Message',
-      name: 'Dr. Rajesh Kumar',
-      designation: 'Head of Department',
-      image: '/api/placeholder/150/150',
-      message: 'The Mechanical Engineering Department at IGIT has been at the forefront of engineering education and research. Our commitment to excellence in teaching and innovation continues to shape the future engineers of tomorrow. The MES plays a vital role in fostering a collaborative learning environment.'
+      title: 'Message From Presdent / Hod',
+      name: 'Dr. Bibhuti Bhusan Choudhary',
+      designation: 'Professor & HOD',
+      image: '/Pages/Image/BB.png',
+      message: 'As Presedent, I am Proud to lead a community committed to learning, innovation and growth. The .'
     },
     {
       title: 'President Message',
@@ -19,10 +19,10 @@ const About = () => {
       message: 'As the President of MES, I am proud to lead a society that brings together passionate individuals dedicated to mechanical engineering excellence. Our society serves as a bridge between academic learning and practical application, creating opportunities for growth and innovation.'
     },
     {
-      title: 'Treasurer Message',
-      name: 'Priya Patel',
-      designation: 'MES Treasurer',
-      image: '/api/placeholder/150/150',
+      title: 'Message From Treasurer',
+      name: 'Dr. Anshuman Padhi',
+      designation: 'Asst. Professor & MES Treasurer',
+      image: '/Pages/Image/Anshu.jpeg',
       message: 'Managing the financial aspects of MES has given me insights into the importance of resource management in engineering projects. Our society ensures transparent financial operations while maximizing the impact of every rupee spent on student development and activities.'
     }
   ]
